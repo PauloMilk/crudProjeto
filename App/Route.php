@@ -18,6 +18,23 @@ class Route extends Bootstrap {
 			'controller' => 'indexController',
 			'action' => 'cadastros'
 		);
+		$routes['cadastroFuncionario'] = array(
+			'route' => '/cadastros/funcionario',
+			'controller' => 'indexController',
+			'action' => 'cadastroFuncionario'
+		);
+
+		$routes['cadastroDepartamento'] = array(
+			'route' => '/cadastros/departamento',
+			'controller' => 'indexController',
+			'action' => 'cadastroDepartamento'
+		);
+
+		$routes['cadastroProjeto'] = array(
+			'route' => '/cadastros/projeto',
+			'controller' => 'indexController',
+			'action' => 'cadastroProjeto'
+		);
 
 		$this->setRoutes($routes);
 	}

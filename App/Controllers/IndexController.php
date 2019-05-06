@@ -17,6 +17,18 @@ class IndexController extends Action {
 		$this->render('cadastros');
 	}
 
+	public function cadastroFuncionario() {
+		$this->render('cadastros/formFuncionario');
+	}
+
+	public function cadastroDepartamento() {
+		$this->render('cadastros/formDepartamento');
+	}
+
+	public function cadastroProjeto() {
+		$this->render('cadastros/formProjeto');
+	}
+
 }
 
 
